@@ -268,6 +268,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 `,Ze="/Arthms-Project/assets/check-6902b0ae.svg",Fa="/Arthms-Project/assets/arrow-939f4500.svg",bS=()=>w.jsx(xS,{children:w.jsxs(kS,{children:[w.jsx(CS,{children:"Nossa inovação garante resultados em"}),w.jsx(PS,{children:"alta performance, eficiência, gestão inteligente e investimentos justos. Atuamos em seis principais mercados, com otimização de processos e tecnologia de ponta. Conheça:"}),w.jsx(ES,{children:"Nossa Companhia passou por inúmeros processos de transformação e acumulou expertise em seis principais negócios, que são tocados com uma equipe multisetorial."}),w.jsxs(OS,{children:[w.jsxs(Pd,{children:[w.jsxs(Hn,{children:[" ",w.jsx(Bn,{src:Ze})," Obras e Construções "]}),w.jsxs(Hn,{children:[" ",w.jsx(Bn,{src:Ze})," Onshore e Offshore "]}),w.jsxs(Hn,{children:[" ",w.jsx(Bn,{src:Ze})," Mineração "]})]}),w.jsxs(Pd,{children:[w.jsxs(Hn,{children:[" ",w.jsx(Bn,{src:Ze})," Construção de Rodovias "]}),w.jsxs(Hn,{children:[" ",w.jsx(Bn,{src:Ze})," Perfuração e Sondagem "]}),w.jsxs(Hn,{children:[w.jsx(Bn,{src:Ze})," Incorporação Imobiliária "]})]})]}),w.jsxs(_S,{children:["Saiba mais",w.jsx(jS,{src:Fa})]})]})}),LS="/Arthms-Project/assets/construction_bg-c76528d8.svg",RS=E.div`
     background-image: url(${LS});
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -403,7 +405,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
    background-image: url(${({image:e})=>e});
    background-size: 100%;
    background-repeat: no-repeat;
+   background-size: cover;
    background-position: center;
+   background-attachment: fixed;
    height: 500px;
    text-align: left;
    font-size: 53px;
